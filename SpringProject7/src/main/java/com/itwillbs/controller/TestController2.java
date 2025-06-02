@@ -22,5 +22,12 @@ public class TestController2 {
 		// 기능 완료
 	}
 	
+	@RequestMapping(value="/test5",method=RequestMethod.GET)
+	public void test5_home() {
+		// 집에서 기능 생성완료
+	}
+	
+	
+	
 	
 }
